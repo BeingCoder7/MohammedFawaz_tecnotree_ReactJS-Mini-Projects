@@ -1,0 +1,680 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(https://i.pinimg.com/originals/e7/7a/60/e77a6068aa8bb2731e3b6d835c09c84c.gif);
+
+  /* background-color: cadetblue; */
+    /* background-image: url(https://media.tenor.com/YT4QPh1fDrUAAAAd/mahendra-singh-dhoni-ms-dhoni.gif); */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.tributebody {
+  background-image: url(https://media.tenor.com/YT4QPh1fDrUAAAAd/mahendra-singh-dhoni-ms-dhoni.gifa);
+}
+
+.tribute img {
+  width: 200px;
+  height: 250px;
+  margin-top:15px;
+  border: 6px solid white;
+  animation-name: change;
+  animation-duration: 5s;
+}
+
+.tribute{
+  border: 2px solid white;
+  background-color: aliceblue;
+  width: 600px;
+}
+
+.tribute h3{
+  background-color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+  color: cadetblue;
+  animation-name: animinate;
+  animation-duration: 5s;
+}
+
+.tribute p{
+  font-size: medium;
+  color: green;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@keyframes animinate {
+  0%   {font-size: small;}
+  25%  {font-size: medium;}
+  50%  {font-size: large;}
+  100% {font-size: larger;}
+}
+
+@keyframes change {
+  0%  {width: 200px;}
+  25%  {width: 225px;}
+  50%  {width: 250px;}
+  100% {width: 300px;}
+}
+
+/* Weather */
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  text-align: center;
+  border:2px solid white;
+  background-color: aliceblue;
+  margin-top: 50px;
+}
+
+.container input{
+  height: 20px;
+  width: 300px;
+  border: 3px solid transparent;
+  border-radius: 5px;
+}
+
+.container button{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+  color: darkcyan;
+  font-weight: bold;
+}
+
+.container h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: darkmagenta;
+}
+
+.container p {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: aqua;
+}
+
+#location {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#weather {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.weatherbody{
+  background-image: url(https://cdn.dribbble.com/users/2277649/screenshots/8498294/weather_dribbble_size.gif.gif);
+}
+
+/* CountDown Timer */
+
+
+
+.countdown-timer {
+max-width: 600px;
+margin: 0 auto;
+padding: 50px;
+text-align: center;
+background-color: lightblue;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.countdown-timer h1 {
+font-size: 36px;
+margin-bottom: 30px;
+color: white;
+}
+
+.timer {
+display: flex;
+justify-content: space-between;
+margin-bottom: 50px;
+}
+
+.time {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.time span {
+font-size: 60px;
+font-weight: bold;
+color: #222;
+}
+
+.time .label {
+font-size: 24px;
+margin-top: 10px;
+color: #666;
+}
+
+.input {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.countdown-timer label {
+font-size: 24px;
+margin-bottom: 20px;
+color: darkblue
+}
+
+.countdown-timer input {
+font-size: 24px;
+margin-bottom: 20px;
+padding: 10px;
+border-radius: 5px;
+border: none;
+outline: none;
+text-align: center;
+}
+
+.countdown-timer button {
+font-size: 24px;
+padding: 10px 20px;
+border-radius: 5px;
+background-color: cyan;
+color: #fff;
+cursor: pointer;
+}
+
+.countdown-timer button:hover {
+background-color: #0062cc;
+}
+
+
+/* Travel */
+
+.travel footer{
+  padding: 0;
+  margin: 0;
+  background-color: blanchedalmond;
+  height: 50px;
+}
+
+
+.travel nav{
+  padding: 0;
+  margin: 0;
+  background-color: blanchedalmond;
+  height: 50px;
+} 
+
+.travel  a{
+  text-decoration: none;
+  list-style: none;
+  position: relative;
+  top:8px;
+  font-size: 18px;
+  margin: 5px;
+  padding: 6px;
+  color: darkblue;
+  font-weight: bold;
+  
+}
+#nav-title{
+  list-style: none;
+  margin: 0;
+  color: lightblue;
+  font-size: 20px;
+  position: relative;
+  top:8px;
+  font-weight: bold;
+  
+}
+.travel ul{
+  margin:0;
+  padding: 0;
+  
+}
+
+.travel li{
+  display: inline;
+}
+
+.travel a:hover {
+  background-color: crimson;
+  color: white;
+}
+
+.travel img:hover{
+  background-color: whitesmoke;
+}
+
+#img1{
+  position: relative;
+  right: 259px;
+}
+
+#img2{
+  position: relative;
+  right: 390px;
+}
+
+#img3{
+  position: relative;
+  right: 135px;
+}
+
+#three {
+  position: absolute;
+  top:60px;
+  right: 55px;
+}
+
+#two{
+  position: relative;
+  right: 140px;
+}
+
+#six{
+  position: absolute;
+  top:450px;
+  right:0px;
+
+}
+
+.travel img {
+  width: 350px;
+  height: 350px;
+  display: inline;
+  margin-top: 10px;
+  padding: 20px;
+  animation-name: image;
+  animation-duration: 5s;
+  border-radius: 300px;
+}
+
+#img6{
+  position: relative;
+  top: -18px;
+  right: -950px;
+}
+
+/* Photography */
+
+.photo nav,footer{
+  padding: 0;
+  margin: 0;
+  background-color: #0E8388;
+  height: 50px;
+}
+
+.photo a{
+  text-decoration: none;
+  list-style: none;
+  position: relative;
+  top:8px;
+  font-size: 18px;
+  margin: 5px;
+  padding: 6px;
+  color: red;
+  font-weight: bold;
+  
+}
+#nav-title{
+  list-style: none;
+  margin: 0;
+  color: white;
+  font-size: 20px;
+  position: relative;
+  top:8px;
+  
+}
+
+.photo ul{
+  margin:0;
+  padding: 0;
+  
+}
+
+.photo li{
+  display: inline;
+}
+
+.photo a:hover {
+  background-color: crimson;
+  color: white;
+}
+.photo  img{
+  display: inline;
+  height: 350px;
+  width: 350px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  animation-name: image;
+  animation-duration: 5s;
+}
+
+@keyframes image {
+  0% {border-radius: 100px;}
+  25% {border-radius: 150px;}
+  50% {border-radius: 200px;}
+  75% {border-radius: 250px;}
+  100% {border-radius: 300px;}
+}
+
+#mainImg{
+  width:100%;
+  height:600px;
+  margin: 0;
+}
+
+/* Form */
+
+.form {
+  background-color: lightcyan;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.form input{
+  margin: 8px;
+  border-radius: 8px;
+  background-color: whitesmoke;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.form input:hover{
+  margin: 8px;
+  border-radius: 8px;
+  background-color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.form h2{
+  color: darkcyan;
+}
+
+.form td{
+  color: darkslateblue;
+}
+
+.form fieldset {
+  border-radius: 15px;
+  border-color: white;
+}
+
+.form input[type=submit] {
+  background-color: antiquewhite;
+  color: darkslategray;
+  font-size: 20px;
+}
+
+.form input[type=reset] {
+  background-color: antiquewhite;
+  color: darkslategray;
+  font-size: 20px;
+}
+
+
+.form input[type=submit]:hover {
+  background-color: rebeccapurple;
+  color: white;
+  border-color: gold;
+}
+
+.form input[type=reset]:hover {
+  background-color: rebeccapurple;
+  color: white;
+  border-color: gold;
+}
+
+.form fieldset:hover {
+  border-radius: 30px;
+  border-color: gold;
+}
+
+/* protofolio */
+
+.protofolio nav,footer{
+  padding: 0;
+  margin: 0;
+  background-color: #0E8388;
+  height: 50px;
+}
+
+
+#nav-title{
+  list-style: none;
+  margin: 0;
+  color: white;
+  font-size: 20px;
+  position: relative;
+  top:8px;
+  text-align: center;   
+}
+
+.card {
+  display: flexbox;
+  margin: 10px;
+  width: 450px;
+  height: 350px;
+  border: 3px solid white;
+  background-color: white;
+  border-radius: 15px;
+  translate: 20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card p{
+  text-align: center;
+}
+
+.aboutme li{
+
+  margin: 5px;
+  padding: 5px;
+}
+
+.protofolio div{
+  display: inline-block;
+}
+
+#card1{
+  display: inline;
+  margin-right: 10%;
+  margin-left: 5%;
+  position: relative;
+}
+
+#card2{
+  display: inline;
+  position: relative;
+  bottom: 195px;
+}
+
+#card3 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -150px;
+  margin-bottom: 20px;
+}
+
+.protofolio center {
+  position: relative;
+  bottom: 150px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+.protofolio label{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.protofolio input{
+  margin-bottom: -90px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 10px;
+}
+
+/* Todolist */
+
+.tasklist {
+  background-color: lightblue;
+  width: 500px;
+  height: 300px;
+  margin-top: 150px;
+}
+
+.tasklist h1{
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.tasklist li{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-seriff;
+  color: #0062cc;
+  text-align: left;
+  list-style: none;
+}
+
+.tasklist input[type=text]{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: darkslategray;
+  width: 300px;
+  height: 20px;
+  margin-right: 10px;
+  border: 1px solid black;
+  border-radius: 6px;;
+}
+
+.tasklist button{
+  background-color: lavender;
+  color: darkmagenta;
+  border: none;
+  font-size: large;
+  border-radius: 8px;
+}
+
+/* Charity */
+
+
+.navbar a{
+  text-decoration: none;
+  list-style: none;
+  display: inline;
+}
+
+.navbar {
+  background-color: darkcyan;
+  height: 50px;
+  font-size: larger;
+}
+
+.navbar ul,li{
+  display: inline;
+  margin-right: 30px;
+  color: darkturquoise;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar a:hover{
+  background-color: darkslategrey;
+  border: 2px solid white;
+  text-align: center;
+  color: aliceblue;
+}
+
+.navbar h1 {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  color: whitesmoke;
+}
+
+.footer h1{
+  display: inline;
+  margin: 0;
+  padding: 0;
+  color: whitesmoke;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 50%;
+}
+
+
+.charity img{
+  width: 1218px;
+  height: 600px;
+}
+
+.charitycontent {
+  width: 40%;
+  background-color: whitesmoke;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 20px;
+  padding: 20px;
+  line-height: 19px;
+  border-radius: 15px;
+}
+
+.charitycontent:hover{
+  background-color: lightblue;
+  color: white;
+}
+
+.charitycontent2 {
+  width: 40%;
+  background-color: whitesmoke;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 20px;
+  padding: 20px;
+  line-height: 19px;
+  border-radius: 15px;
+  position: relative;
+  bottom: 170px;
+  left: 600px;
+  margin-bottom: -140px;
+}
+
+.charitycontent2:hover{
+  background-color: lightblue;
+  color: white;
+}
+
+.images1 img{
+  display: inline;
+  width: 350px;
+  height: 300px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  animation-name: img;
+  animation-duration: 4s;
+}
+
+.images2 img{
+  display: inline;
+  width: 350px;
+  height: 300px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  animation-name: img;
+  animation-duration: 4s;
+}
+
+@keyframes img {
+    0% {border-radius:300px;}
+    25% {border-radius: 350px;}
+    50% {border-radius: 400px;}
+    75% {border-radius: 450px;}
+    100% {border-radius: 500px;}
+  }
+  
+  
